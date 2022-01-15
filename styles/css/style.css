@@ -24,6 +24,7 @@ nav li {
 }
 
 a {
+  color: transparent;
   text-decoration: none;
 }
 
