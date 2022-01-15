@@ -61,11 +61,13 @@ h3 {
   font-weight: 700;
   letter-spacing: -0.045em;
   line-height: 25px;
+  color: #2f3134;
   /* background-color: lightcoral; */
 }
 
 p {
   font-size: 14px;
+  color: #2f3134;
   margin-top: 14px;
   line-height: 19px;
   letter-spacing: -0.048em;
