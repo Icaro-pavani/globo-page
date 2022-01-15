@@ -1,0 +1,176 @@
+@media (max-width: 600px){
+    main {
+        width: max-content;
+        flex-direction: column;
+    }
+
+    nav {
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+        line-height: 40px;
+        letter-spacing: -0.028em;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+        letter-spacing: -0.045em;
+    }
+
+    p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    img,
+    .primeira-coluna img,
+    .segunda-coluna img,
+    .terceira-coluna img {
+        width: 120px;
+        height: 67px;
+        /* float: left; */
+        margin-right: 14px;
+        /* padding-right: 14px; */
+        border-radius: 5px;
+    }
+
+    .primeira-noticia {
+        border-bottom: 1px solid #e6e6e6;  
+        margin-bottom: 20px;
+        padding: 5px;  
+    }
+
+    .primeira-noticia li {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 25px;
+        height: 58px;
+        width: 100%;
+        margin-bottom: 4px;
+        letter-spacing: -0.068em;
+        color: #cd150b;
+    }
+
+    .primeira-coluna,
+    .segunda-coluna,
+    .terceira-coluna {
+        width: 345px;
+        /* background-color: khaki; */
+        height: fit-content;
+        margin: 0px 20px 0px 20px;
+        padding: 0px;
+        border: none;
+        /* display: flex;
+        flex-direction: column; */
+        /* align-items: center;
+        justify-content: center; */
+        border: none;
+    }
+
+    .primeira-linha {
+        width: 100%;
+        display: block;
+        border: none;
+        margin-top: 15px;
+    }
+
+    .segunda-linha {
+        display: block;
+    }
+
+    .celular{
+        display: flex;
+    }
+
+    .spacing {
+        margin-top: 0px;
+    }
+
+    .noticia-vermelha,
+    .esporte,
+    .noticia-laranja {
+        width: 100%;
+        /* height: 100px; */
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e6e6e6;
+        margin-bottom: 20px;
+    }
+
+    .noticia-vermelha h3,
+    .noticia-vermelha p {
+        color: #cd150b;
+        /* background-color: lawngreen; */
+    }
+
+    .esporte h3,
+    .esporte p {
+        color: #06aa48;
+    }
+
+    .noticia-laranja h3,
+    .noticia-laranja p {
+        color: #ff8203;
+    }
+
+    .end {
+        border: none;
+    }
+
+    .segunda-linha {
+        width: 100%;
+        display: block;
+        border: none;
+        margin-top: 15px;
+        border: none;
+    }
+
+    .logo {
+        font-size: 50px;
+        height: 80px;
+        color: #0420fc;
+    }
+
+    .logo a{
+        background-image: unset;
+        -webkit-text-fill-color: inherit;
+        color: #335AFF;
+    }
+
+    .globo {
+        display: none;
+    }
+
+    .play {
+        display: none;
+    }
+
+    .gshow {
+        display: none;
+    }
+
+    .ge {
+        display: none;
+    }
+
+    .quem{
+        display: none;
+    }
+
+    
+}
