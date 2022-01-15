@@ -1,10 +1,14 @@
+/* Mudança para uma versão diferente quando o tamanho da tela for menor que 600px */
 @media (max-width: 600px){
+    /* Muda o tamanho do contéudo da página */
     main {
         width: max-content;
         flex-direction: column;
     }
 
+    /* Altera as configurações da barra de navegação */
     nav {
+        width: 100vr;
         margin-bottom: 20px;
     }
 
@@ -13,6 +17,7 @@
         justify-content: space-evenly;
     }
 
+    /* Altera formatação da notícia com maior destaque */
     h1 {
         font-size: 32px;
         line-height: 40px;
@@ -22,10 +27,12 @@
         letter-spacing: -0.028em;
     }
 
+    /* Apaga as manchetes coloridas */
     h2 {
         display: none;
     }
 
+    /* Altera as manchetes em destaque dentro das notícias */
     h3 {
         font-size: 18px;
         line-height: 25px;
@@ -33,29 +40,31 @@
         letter-spacing: -0.045em;
     }
 
+    /* Altera as notícias de menor destaque */
     p {
         font-size: 16px;
         width: 100%;
     }
 
+    /* Altera os tamanhos das imagens de toda a página */
     img,
     .primeira-coluna img,
     .segunda-coluna img,
     .terceira-coluna img {
         width: 120px;
         height: 67px;
-        /* float: left; */
         margin-right: 14px;
-        /* padding-right: 14px; */
         border-radius: 5px;
     }
 
+    /* Altera formatação da notícia de maior destaque */
     .primeira-noticia {
         border-bottom: 1px solid #e6e6e6;  
         margin-bottom: 20px;
         padding: 5px;  
     }
 
+    /* Altera a formatação das notícias em abaixo da notícia de maior destaque */
     .primeira-noticia li {
         font-size: 18px;
         font-weight: bold;
@@ -67,22 +76,19 @@
         color: #cd150b;
     }
 
+    /* Altera a formatação das colunas de notícias */
     .primeira-coluna,
     .segunda-coluna,
     .terceira-coluna {
         width: 345px;
-        /* background-color: khaki; */
         height: fit-content;
         margin: 0px 20px 0px 20px;
         padding: 0px;
         border: none;
-        /* display: flex;
-        flex-direction: column; */
-        /* align-items: center;
-        justify-content: center; */
         border: none;
     }
 
+    /* Retorna a primeira linha de notícias em formato de blocos */
     .primeira-linha {
         width: 100%;
         display: block;
@@ -90,48 +96,55 @@
         margin-top: 15px;
     }
 
+    /* Retorna a segunda linha para o formato de blocos */
     .segunda-linha {
         display: block;
     }
 
+    /* Ajusta a imagem e a notícia para ficarem lado a lado */
     .celular{
         display: flex;
     }
 
+    /* Elimina o ajuste entre as notícias da segunda e terceira coluna */
     .spacing {
         margin-top: 0px;
     }
 
+    /* Ajusta os pequenos blocos de notícias presentes em cada coluna */
     .noticia-vermelha,
     .esporte,
     .noticia-laranja {
         width: 100%;
-        /* height: 100px; */
         padding-bottom: 20px;
         border-bottom: 1px solid #e6e6e6;
         margin-bottom: 20px;
     }
-
+    
+    /* Altera coloração dos elementos das notícias da primeira coluna*/
     .noticia-vermelha h3,
     .noticia-vermelha p {
         color: #cd150b;
-        /* background-color: lawngreen; */
     }
 
+    /* Altera coloração dos elementos das notícias da segunda coluna*/
     .esporte h3,
     .esporte p {
         color: #06aa48;
     }
 
+    /* Altera coloração dos elementos das notícias da terceira coluna*/
     .noticia-laranja h3,
     .noticia-laranja p {
         color: #ff8203;
     }
 
+    /* Retira a borda da última notícia */
     .end {
         border: none;
     }
 
+    /* Ajusta em blocos as notícias da segunda linha */
     .segunda-linha {
         width: 100%;
         display: block;
@@ -140,18 +153,21 @@
         border: none;
     }
 
+    /* Altera a coloração do logo */
     .logo {
         font-size: 50px;
         height: 80px;
         color: #0420fc;
     }
 
+    /* Elimina o efeito degradê do logo */
     .logo a{
         background-image: unset;
         -webkit-text-fill-color: inherit;
         color: #335AFF;
     }
 
+    /* Retira alguns dos itens da barra de navegação */
     .globo {
         display: none;
     }

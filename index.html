@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- deixei o carregamento padrão do editor -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- comandos para links os arquivos CSS -->
     <link href="styles/css/reset.css" rel="stylesheet" type="text/css" />
     <link href="styles/css/style.css" rel="stylesheet" type="text/css" />
     <link href="styles/css/media.css" rel="stylesheet" type="text/css" />
+    <!-- link da fonte padrão do site -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +22,10 @@
 
   <body>
     <header>
+      <!-- Resolvi fazer o próprio com a fonte padrão, pois não gostei da qualidade da imagem -->
       <h2 class="logo"><a href="#">globo.com</a></h2>
+
+      <!-- menu do top da página -->
       <nav>
         <ul>
           <li><a class="g1" href="#">g1</a></li>
@@ -35,10 +41,12 @@
         </ul>
       </nav>
     </header>
-
+    
+    <!-- corpo do site -->
     <main>
-      <!-- primeira notícia -->
+      <!-- Conjunto de noticias em vermelho, definindo a primeira coluna de notícias -->
       <section class="primeira-coluna">
+        <!-- Notícia de destaque -->
         <div class="primeira-noticia">
           <a href="#">
             <h1>
@@ -62,11 +70,12 @@
           </ul>
         </div>
 
-        <!-- <div class="divisoria-horizontal"></div> -->
-        <!-- primeira linha de notícias da coluna esquerda -->
+        <!-- primeira linha de notícias da coluna -->
         <div class="primeira-linha">
+          <!-- bloco de cada notícia dessa coluna-->
           <div class="noticia-vermelha">
             <a href="#">
+              <!-- container para definir formatação para versão mobile -->
               <div class="celular">
                 <img src="imagens/alem-do-presidente.jpeg" />
                 <h2>Além do presidente</h2>
@@ -110,6 +119,7 @@
 
         <!-- segunda linha de notícia -->
         <div class="segunda-linha">
+          <!-- bloco de cada notícia dessa coluna-->
           <div class="noticia-vermelha">
             <a href="#">
               <h2>Sabatina de Mendonça</h2>
@@ -145,10 +155,12 @@
         </div>
       </section>
 
-      <!-- segunda coluna de notícias -->
+      <!-- segunda coluna de notícias, representando as notícias em verde -->
       <section class="segunda-coluna">
+        <!-- bloco de cada notícia dessa coluna-->
         <div class="esporte">
           <a href="#">
+            <!-- container para definir formatação para versão mobile -->
             <div class="celular">
               <img src="imagens/espiao-estatistico.jpeg" />
               <h2>Espião estatístico</h2>
@@ -164,6 +176,7 @@
           </a>
         </div>
 
+        <!-- spacing serve para ajeitar o disanciamento das notícias -->
         <div class="esporte spacing">
           <a href="#">
             <div class="celular">
@@ -187,10 +200,12 @@
         </div>
       </section>
 
-      <!-- terceira coluna de noticias -->
+      <!-- terceira coluna de noticias, representando as notícias em laranja -->
       <section class="terceira-coluna">
+        <!-- bloco de cada notícia dessa coluna-->
         <div class="noticia-laranja">
           <a href="#">
+            <!-- container para definir formatação para versão mobile -->
             <div class="celular">
               <img src="imagens/ferias-e-jh.jpeg" />
               <h2>Férias e JH</h2>
