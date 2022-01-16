@@ -27,8 +27,24 @@ nav li {
 
 /* Para tirar a cor dos links e manter a cor do texto utilizado */
 a {
-  color: #000;
   text-decoration: none;
+  opacity: 0.95;
+}
+
+/* Acerta a coloração das letras coloridas */
+a h2{
+  opacity: 0.95;
+}
+
+/* Defini reação quando o mouse passa por um link */
+a:hover,
+a div:hover,
+a h1:hover,
+a li:hover,
+a p:hover {
+  cursor: pointer;
+  background-color: #fff;
+  opacity: 0.5;
 }
 
 /* define tamanho máximo onde as notícias serão exibidas */
@@ -53,6 +69,7 @@ h1 {
 /* configuração dos títulos coloridos de cada notícia */
 h2 {
   font-size: 14px;
+  height: 19px;
   font-weight: 500;
   margin-top: 11px;
   margin-bottom: 11px;
